@@ -1,0 +1,11 @@
+JDK - multiple versions - use LTS - currently 11
+vendor - diff vendors offer implementations of JDK
+like Oracle, IBM, RedHat, Corretor
+Oracle has Oracle SE - this is paid enterprise under Oracle..(OTN license), 
+or implementation of OpenJDK (GNU Classpath license)
+Amazon Correto supports LTS
+
+can use any JDK vendor based on OpenJDK. Students can also use OracleSE, free for students
+
+JVM - 2 implementaions - HotSpot and OpenJ9
+use anything - not much diff for student level coding
