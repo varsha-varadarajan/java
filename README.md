@@ -1,2 +1,2 @@
-# java-udemy
-Programs from Java 8 Udemy Course
+# java
+Programs from Java practice
