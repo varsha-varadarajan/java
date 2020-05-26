@@ -11,6 +11,22 @@ public class Main {
         printSquareStar(5);
     }
 
+    public static void someMethod(int d, int velo[]) {
+        int min = 1;
+        int i = 0;
+        for (i=0; i<velo.length; i++) {
+            if (velo[i]*min > d) {
+                break;
+            }
+            min++;
+        }
+        if (i == velo.length) {
+            System.out.println("Success");
+        } else {
+            System.out.println("Escaped");
+        }
+    }
+
     public static void printSquareStar(int number) {
         if (number < 5) {
             System.out.println("Invalid Value");
