@@ -9,6 +9,27 @@ public class DeluxeHamburger extends Hamburger {
         this.initializeAddOns();
     }
 
+    @Override
+    public boolean addCarrot() {
+        return false;
+        // Not allowed
+    }
+
+    @Override
+    public boolean addLettuce() {
+        return false;
+    }
+
+    @Override
+    public boolean addMayo() {
+        return false;
+    }
+
+    @Override
+    public boolean addIndianSauce() {
+        return false;
+    }
+
     private void initializeAddOns() {
         this.getAddOns().add(new AddOn("Chips", 2));
         this.getAddOns().add(new AddOn("Drink", 3));
