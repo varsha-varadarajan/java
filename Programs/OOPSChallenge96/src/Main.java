@@ -8,6 +8,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         placeOrder();
+
+        int[] a = new int[] {1,2,3};
+        int x = a.length;
     }
 
     public static void placeOrder() {
